@@ -1,4 +1,4 @@
-# Lock-N
+# QWES
 
 Our app allows users to see predictions of future stock prices, improve their yoga positions by using advanced machine learning, communicate with other users in the app, and find emergency contacts and news articles. This app is perfect for a lockdown like we are experiencing now. It covers everyones needs during a lockdown and we plan to add more features and publish this app on the app store.
 
