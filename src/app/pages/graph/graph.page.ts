@@ -45,10 +45,6 @@ export class GraphPage implements OnInit {
   chartType = 'line';
   showLegend = false;
  
-  // For search
-  
-  
-  
   constructor(private http: HttpClient, private modalCtrl: ModalController, private db:AngularFireDatabase) { 
 
   }
@@ -64,7 +60,7 @@ export class GraphPage implements OnInit {
   
   getData() {
       console.log("Stock name: " + this.ticker);
-      this.http.get(`https://financialmodelingprep.com/api/v3/historical-price-full/${this.ticker}?from=2020-05-11&to=2020-05-21&apikey=b14b67761bf2ef55e3ec5bcce3343f37`).subscribe(res => {
+      this.http.get(`https://financialmodelingprep.com/api/v3/historical-price-full/${this.ticker}?from=2020-05-19&to=2020-05-29&apikey=b14b67761bf2ef55e3ec5bcce3343f37`).subscribe(res => {
       const history = res['historical'];
  
       this.chartLabels = [];

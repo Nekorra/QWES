@@ -51,6 +51,10 @@ const routes: Routes = [
     path: 'diet',
     loadChildren: () => import('./pages/diet/diet.module').then( m => m.DietPageModule)
   },
+  {
+    path: 'entertainment',
+    loadChildren: () => import('./pages/entertainment/entertainment.module').then( m => m.EntertainmentPageModule)
+  },
 ];
 
 @NgModule({
