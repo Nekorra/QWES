@@ -20,7 +20,7 @@ while True:
         date = str(date)
         df = web.DataReader(ticker, data_source='yahoo', start = '2012-01-01', end=date)
         #print(df.shape)
-
+    
         #plot the data (closing prise history)
         plt.figure(figsize=(16,8))
         plt.title('Close Price History')

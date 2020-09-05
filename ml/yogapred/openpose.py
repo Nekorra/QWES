@@ -112,7 +112,7 @@ while cv.waitKey(1) < 0:
     freq = cv.getTickFrequency() / 1000
     cv.putText(frame, '%.2fms' % (t / freq), (10, 20), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0))
 
-    cv.imwrite('C:/programming/yogapred/output/output.png', frame)
+    cv.imwrite("/Users/abhinavsrinivas/programming/QWES/ml/yogapred/output/output.png", frame)
 
 
 
